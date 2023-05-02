@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family:'Roboto', sans-serif;
+}
+body{
+    background-color:#3c4043;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding: 0 15px ; 
+    background-color:rgb(103, 117, 112);
+}
+header .opciones {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+} 
+
+header .opciones a{
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+header .opciones a img{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+
+
+}
+
+
+main{
+    height: 50%;
+    align-items: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction:column;
+   
+}
+main .container {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 25px;
+
+} 
+main .container figure{
+    height: 92px;
+}
+main .container figure img {
+    height: 100%;  
+ }
+ main .container .search {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 40px;
+    width: 450px;
+    padding: 8px 12px;
+    border: 1px solid gray;
+    border-radius: 24px;
+ }
+
+ main .container .searcher-buttons  {
+    border: none;
+    background-color: transparent;
+}
+main .container .search input {
+    width: 100%;
+    border: none;
+    color: rgb(253, 253, 253);
+    background-color: transparent;
+   
+}
+main .container .searcher-buttons {
+    display: flex;
+    gap: 10px;
+}
+main .container .searcher-buttons button{
+    border: none;
+    border-radius: 4px;
+    background-color: #313235;
+    padding: 12px;
+    color: rgb(236, 236, 236);
+}
+main .container p {
+    font-size: small;
+    color: rgb(255, 255, 255);
+}
